@@ -1,0 +1,16 @@
+{# This file demonstrates using most of the index.twig template and modifying
+   just a small part. See `search.twig` for an example of another approach #}
+
+{% extends "index.twig" %}
+
+{% block content %}
+	<h3>file: archive-events.twig</h3>
+
+	{% for post in posts %}
+		{# it will look for tease-events.twig, and then go to tease.twig #}
+		{% include ['tease-'~post.post_type~'.twig', 'tease.twig'] %}
+	{% endfor %}
+
+	{% include 'partial/pagination.twig' with { pagination: posts.pagination({show_all: false, mid_size: 3, end_size: 2}) } %}
+
+{% endblock %}

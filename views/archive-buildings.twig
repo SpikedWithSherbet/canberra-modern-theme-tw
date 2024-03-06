@@ -1,0 +1,18 @@
+{# This file demonstrates using most of the index.twig template and modifying
+   just a small part. See `search.twig` for an example of another approach #}
+
+{% extends "index.twig" %}
+
+{% block content %}
+	<h3>file: archive-buildings.twig</h3>
+
+	{# loop through the posts returned #}
+	{% for post in posts %}
+		{# include the content from the first file here, if it can't find it, load the other #}
+		{% include ['tease-buildings.twig', 'tease.twig'] %}
+	{% endfor %}
+
+	{# now load the page numbers #}
+	{% include 'partial/pagination.twig' with { pagination: posts.pagination({show_all: false, mid_size: 3, end_size: 2}) } %}
+
+{% endblock %}

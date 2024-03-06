@@ -1,0 +1,15 @@
+{# INDIVIDUAL BUILDING #}
+{# this is the single building that is looped through on the archive-buildings.twig file #}
+
+	<article class="tease tease-{{post.type}}" id="tease-{{post.id}}"> {% block content %}
+		<h2 class="h2">
+			<a href="{{post.link}}">{{post.title}}</a>
+		</h2>
+		<h3>Risk Status</h3>
+		<p>{{ post.risk_status }}</p>
+		<p>{{ post.excerpt }}</p>
+		{% if post.thumbnail %}
+			<img src="{{post.thumbnail.src}}"/>
+		{% endif %}
+	{% endblock %}
+</article>

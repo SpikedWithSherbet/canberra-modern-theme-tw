@@ -1,0 +1,44 @@
+{% extends "base.twig" %}
+
+{% block content %}
+	<div class="content-wrapper">
+		<article class="post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
+			<img src="{{ post.thumbnail.src|resize(1200, 300) }}">
+			<section class="article-content">
+				<h1 class="article-h1">{{ post.title }}</h1>
+
+				<div class="article-body">
+					{{post.content}}
+
+					{# this is building specific information, display it how you want #}
+					<h3>Risk Status</h3>
+					<p>{{ post.risk_status }}</p>
+
+					<h3>Year</h3>
+					<p>{{ post.year }}</p>
+					<h3>Location</h3>
+					<p>{{ post.location }}</p>
+					<h3>Suburb</h3>
+					<p>{{ post.suburb }}</p>
+
+					<h3>Architect</h3>
+					{# return a list in case there are multiple architects #}
+					<ul>
+						{% for arch in post.architect %}
+							{# this loops through individual entries returned #}
+							<li>
+								{{arch.name}}
+							</li>
+						{% endfor %}
+					</ul>
+
+					{# show a map of the location #}
+					{{ post.geolocation }}
+
+				</div>
+
+			</section>
+		</article>
+	</div>
+	<!-- /content-wrapper -->
+{% endblock %}
