@@ -1,10 +1,8 @@
-{# This file demonstrates using most of the index.twig template and modifying
-   just a small part. See `search.twig` for an example of another approach #}
+{# TEMPLATE: archive-buildings.twig #}
 
 {% extends "index.twig" %}
 
 {% block content %}
-	<h3>file: archive-buildings.twig</h3>
 
 	{# loop through the posts returned #}
 	{% for post in posts %}
@@ -15,4 +13,18 @@
 	{# now load the page numbers #}
 	{% include 'partial/pagination.twig' with { pagination: posts.pagination({show_all: false, mid_size: 3, end_size: 2}) } %}
 
+
+	<div
+		class="debug p-8 bg-debug ">
+		{# useful for debugging, delete later #}
+		<h1>Debug info</h1>
+
+		<p class="pb-4">post name:
+			{{post.name}}</p>
+
+		<p>file name: archive-buildings.twig</p>
+
+		{# Output what is in the post #}
+		{# {{dump(post)}} #}
+	</div>
 {% endblock %}

@@ -2,33 +2,84 @@
 
 The basic bones of this theme have been created by Ben Ennis Butler as a starting point for students studying front-end web design (11056).
 
-This version has been set up to use tailwind CSS.
-
-## The Timber Starter Theme
-
-[![Build Status](https://travis-ci.com/timber/starter-theme.svg?branch=master)](https://travis-ci.com/github/timber/starter-theme)
-[![Packagist Version](https://img.shields.io/packagist/v/upstatement/canberra-modern-theme?include_prereleases)](https://packagist.org/packages/upstatement/canberra-modern-theme)
-
-The "_s" for Timber: a dead-simple theme that you can build from. The primary purpose of this theme is to provide a file structure rather than a framework for markup or styles. Configure your SASS files, scripts, and task runners however you would like!
+This version has been set up to use TailwindCSS.
 
 
-### The `StarterSite` class
+## How to use it!
 
-In **functions.php**, we call `new StarterSite();`. The `StarterSite` class sits in the **src** folder. You can update this class to add functionality to your theme. This approach is just one example for how you could do it.
+1. First install Wordpress with Local following the instructions on Canvas
+2. Make sure your Wordpress site is running!
+3. Pull the lastest code from GitHub, via GitHub desktop or VSCode
+4. In your terminal, navigate to the theme folder (if you've set VSCode up properly you should be in the root theme folder), then type `npm run watch`. If this doesn't work, you may need to install Node, details below.
+5. Start writing code!
 
-The **src** folder would be the right place to put your classes that [extend Timber’s functionality](https://timber.github.io/docs/v2/guides/extending-timber/).
 
-Small tip: You can make use of Composer’s [autoloading functionality](https://getcomposer.org/doc/04-schema.md#psr-4) to automatically load your PHP classes when they are requested instead of requiring one by one in **functions.php**.
+## Install Node
 
-## What else is there?
+For Windows:
+Download Installer: [Node.js](https://nodejs.org/)
 
-- `static/` is where you can keep your static front-end scripts, styles, or images. In other words, your Sass files, JS files, fonts, and SVGs would live here.
-- `views/` contains all of your Twig templates. These pretty much correspond 1 to 1 with the PHP files that respond to the WordPress template hierarchy. At the end of each PHP template, you’ll notice a `Timber::render()` function whose first parameter is the Twig file where that data (or `$context`) will be used. Just an FYI.
-- `tests/` ... basically don’t worry about (or remove) this unless you know what it is and want to.
+Run Installer:
+Run the downloaded installer and follow the installation instructions.
+Ensure that the "npm" package manager option is selected during installation.
+
+Verify Installation:
+Open a command prompt, PowerShell or terminal in VSCode
+Run the following commands to verify the installation:
+
+`node -v`
+`npm -v`
+
+These commands should display the installed Node.js and npm versions.
+
+
+For Mac:
+Download Installer: [Node.js](https://nodejs.org/)
+
+Run Installer:
+Run the downloaded installer and follow the installation instructions.
+Ensure that the "npm" package manager option is selected during installation.
+
+Verify Installation:
+Open terminal in VSCode
+Run the following commands to verify the installation:
+
+`node -v`
+`npm -v`
+
+These commands should display the installed Node.js and npm versions.
+
+## Folder structure
+
+`assets`: This folder is often used to store CSS, JavaScript, and images related to your theme.
+
+`inc`: This folder can contain various PHP files, each handling specific functionalities. For example, custom-post-types.php might define custom post types, and theme-support.php might add theme support features.
+
+`templates`: This is where your Twig templates reside. The `partials` subfolder can contain reusable components like headers, footers, and navigation.
+
+`functions.php`: This file includes functions related to theme setup, enqueueing scripts and styles, and other theme-specific functionalities. You probably won't touch it.
+
+`style.css`: A style.css file is needed for WordPress theme identification. When using Tailwind, the styles are automatically added to this, so no need to use it.
+
+
+## Built upon
+There are quite a few things in use in order to get this to work:
+
+#### TailwindCSS v3.4.1
+Tailwind is a utility-first CSS framework
+[Tailwind Docs](https://tailwindcss.com/docs/)
+
+#### Timber Starter Theme
+The "_s" for Timber: a dead-simple theme that you can build from. The primary purpose of this theme is to provide a file structure rather than a framework for markup or styles. [Starter Theme](https://travis-ci.com/github/timber/starter-theme)
+
+#### Twig
+Timber uses Twig. Twig is a flexible and secure template engine for PHP used primarily in web development to separate the logic of the application from its presentation layer.
+[Twig](https://twig.symfony.com/)
+
 
 ## Other Resources
 
 * [Twig for Timber Cheatsheet](http://notlaura.com/the-twig-for-timber-cheatsheet/)
 * [Timber and Twig Reignited My Love for WordPress](https://css-tricks.com/timber-and-twig-reignited-my-love-for-wordpress/) on CSS-Tricks
 * [A real live Timber theme](https://github.com/laras126/yuling-theme).
-* [Timber Video Tutorials](http://timber.github.io/timber/#video-tutorials) and [an incomplete set of screencasts](https://www.youtube.com/playlist?list=PLuIlodXmVQ6pkqWyR6mtQ5gQZ6BrnuFx-) for building a Timber theme from scratch.
+

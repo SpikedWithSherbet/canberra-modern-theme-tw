@@ -1,0 +1,22 @@
+{# TEMPLATE: ARCHIVE.twig #}
+
+{% extends "index.twig" %}
+
+{% block content %}
+	<h3>This is my archive</h3>
+	{{ parent() }}
+
+	<div
+		class="debug p-8 bg-debug">
+		{# useful for debugging, delete later #}
+		<h1>Debug info</h1>
+
+		<p class="pb-4">post name:
+			{{post.name}}</p>
+
+		<p>file name: archive.twig</p>
+
+		{# Output what is in the post #}
+		{# {{dump(post)}} #}
+	</div>
+{% endblock %}

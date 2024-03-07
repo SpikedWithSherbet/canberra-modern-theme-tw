@@ -1,0 +1,34 @@
+{# TEMPLATE: home page #}
+
+{% extends "base.twig" %}
+
+{% block content %}
+
+	<div class="content-wrapper">
+		<article class="post-type-{{post.post_type}}" id="post-{{post.ID}}">
+			<section class="article-content">
+				<h1 class="article-h1">{{post.title}}</h1>
+				<div class="article-body">
+					{{post.content}}
+				</div>
+			</section>
+		</article>
+	</div>
+
+
+	<div
+		class="debug p-8 bg-debug">
+		{# useful for debugging, delete later #}
+		<h1>Debug info</h1>
+
+		<p class="pb-4">post name:
+			{{post.name}}</p>
+
+		<p>file name: page-home.twig</p>
+
+		{# Output what is in the post #}
+		{# {{dump(post)}} #}
+	</div>
+
+	<!-- /content-wrapper -->
+{% endblock %}

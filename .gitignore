@@ -1,3 +1,7 @@
+# Node.js
+node_modules/
+
+# Other project-specific ignores...
 /composer.lock
 /vendor/
-/wordpress/
+

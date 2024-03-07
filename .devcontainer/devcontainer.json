@@ -1,0 +1,14 @@
+{
+	"name": "Recommended Environment",
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+	],
+	"settings": {
+		"files.autoSave": "afterDelay",
+		"editor.formatOnSave": true,
+		"eslint.enable": true,
+		"prettier.singleQuote": true
+	},
+	"postCreateCommand": "npm install"
+}

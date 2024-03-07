@@ -1,0 +1,12 @@
+/*
+ * Theme Name: Canberra Modern Theme - TW
+ * Theme URI:
+ * Author: beneb
+ * Description: A Wordpress site built with Timber and Tailwind
+ * Version: 1.0
+ * Text domain:
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

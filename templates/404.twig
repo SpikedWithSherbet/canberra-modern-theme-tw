@@ -1,0 +1,19 @@
+{% extends "base.twig" %}
+
+{% block content %}
+	Sorry, we couldn't find what you're looking for.
+
+	<div
+		class="debug p-8 bg-debug">
+		{# useful for debugging, delete later #}
+		<h1>Debug info</h1>
+
+		<p class="pb-4">post name:
+			{{post.name}}</p>
+
+		<p>file name: 404.twig</p>
+
+		{# Output what is in the post #}
+		{# {{dump(post)}} #}
+	</div>
+{% endblock %}
