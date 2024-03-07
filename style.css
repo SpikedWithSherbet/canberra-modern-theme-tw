@@ -545,16 +545,16 @@ video {
 .resize {
   resize: both;
 }
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(52 144 220 / var(--tw-bg-opacity));
-}
 .bg-debug {
   --tw-bg-opacity: 1;
   background-color: rgb(255 202 40 / var(--tw-bg-opacity));
 }
 .p-8 {
   padding: 2rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .pb-4 {
   padding-bottom: 1rem;

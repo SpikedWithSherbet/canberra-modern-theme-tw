@@ -4,7 +4,6 @@
 {% extends "index.twig" %}
 
 {% block content %}
-	<h3>file: archive-events.twig</h3>
 
 	{% for post in posts %}
 		{# it will look for tease-events.twig, and then go to tease.twig #}
@@ -12,5 +11,16 @@
 	{% endfor %}
 
 	{% include 'partial/pagination.twig' with { pagination: posts.pagination({show_all: false, mid_size: 3, end_size: 2}) } %}
+
+	<div
+		class="debug p-8 bg-debug">
+		{# useful for debugging, delete later #}
+		<h1>Debug info</h1>
+
+		<p>file name: archive-events.twig</p>
+
+		{# Output what is in the post #}
+		{# {{dump(post)}} #}
+	</div>
 
 {% endblock %}

@@ -7,9 +7,9 @@
 		</h2>
 		<h3>Risk Status</h3>
 		<p>{{ post.risk_status }}</p>
-		<p>{{ post.excerpt }}</p>
-		{% if post.thumbnail %}
-			<img src="{{post.thumbnail.src}}"/>
-		{% endif %}
-	{% endblock %}
-</article>
+		<p>{{ post.excerpt({ words:10, read_more: "Keep reading &rarr;" }) }}</p>
+	</p>
+	{% if post.thumbnail %}
+		<img src="{{post.thumbnail.src}}"/>
+	{% endif %}
+{% endblock %}</article>

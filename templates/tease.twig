@@ -3,9 +3,9 @@
 		<h2 class="h2">
 			<a href="{{post.link}}">{{post.title}}</a>
 		</h2>
-		<p>{{ post.excerpt }}</p>
-		{% if post.thumbnail %}
-			<img src="{{post.thumbnail.src}}"/>
-		{% endif %}
-	{% endblock %}
-</article>
+		<p>{{ post.excerpt({ words:10, read_more: "Keep reading &rarr;" }) }}</p>
+	</p>
+	{% if post.thumbnail %}
+		<img src="{{post.thumbnail.src}}"/>
+	{% endif %}
+{% endblock %}</article>
