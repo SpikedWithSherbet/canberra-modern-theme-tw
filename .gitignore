@@ -3,5 +3,5 @@ node_modules/
 
 # Other project-specific ignores...
 /composer.lock
-/vendor/
+
 
