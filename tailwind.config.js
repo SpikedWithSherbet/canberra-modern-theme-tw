@@ -15,7 +15,7 @@ module.exports = {
 			colors: {
 				primary: '#3490dc', // Add your custom primary color
 				secondary: '#6574cd', // Add your custom secondary color
-				debug: '#FFCA28', // Just so you can see how this is powerful
+				debug: '#4ba791', // Just so you can see how this is powerful
 				// Add more custom colors as needed
 			},
 			fontFamily: {
