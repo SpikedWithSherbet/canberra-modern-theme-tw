@@ -13,7 +13,7 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: '#FFFFFF', // Add your custom primary color
+				primary: '#000000', // Add your custom primary color
 				secondary: '#6574cd', // Add your custom secondary color
 				debug: '#4ba791', // Just so you can see how this is powerful
 				// Add more custom colors as needed
