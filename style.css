@@ -47,7 +47,7 @@ html,
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: "Inria Sans", sans-serif; /* 4 */
+  font-family: "Montserrat", sans-serif; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
@@ -548,6 +548,10 @@ video {
 .bg-debug {
   --tw-bg-opacity: 1;
   background-color: rgb(75 167 145 / var(--tw-bg-opacity));
+}
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 144 220 / var(--tw-bg-opacity));
 }
 .p-8 {
   padding: 2rem;
