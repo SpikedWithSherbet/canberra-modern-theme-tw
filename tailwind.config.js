@@ -13,15 +13,16 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: '#3490dc', // Add your custom primary color
+				primary: '#FFFFFF', // Add your custom primary color
 				secondary: '#6574cd', // Add your custom secondary color
 				debug: '#4ba791', // Just so you can see how this is powerful
 				// Add more custom colors as needed
 			},
 			fontFamily: {
-				//font files are declared in html-header.twig file
+				//font files are declared in html-header.twig file e
 				'sans': ['"Montserrat"', 'sans-serif'],
 			},
+			
 		}
 	},
 	plugins: [],
