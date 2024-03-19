@@ -1,0 +1,2 @@
+index.twig is the Home page
+page.twig applies to buildings
