@@ -20,7 +20,7 @@ module.exports = {
 			},
 			fontFamily: {
 				//font files are declared in html-header.twig file
-				'sans': ['"Inria Sans"', 'sans-serif'],
+				'sans': ['"Montserrat"', 'sans-serif'],
 			},
 		}
 	},
