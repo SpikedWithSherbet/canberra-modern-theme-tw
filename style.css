@@ -60,7 +60,7 @@ html,
 
 body {
   margin: 0; /* 1 */
-  line-height: inherit; /* 2 */
+  line-height: inherit; /* 2 */;
 }
 
 /*
@@ -308,6 +308,10 @@ figure,
 p,
 pre {
   margin: 0;
+}
+
+p{
+  padding-bottom: 10px;
 }
 
 fieldset {
