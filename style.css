@@ -89,8 +89,8 @@ Remove the default font size and weight for headings.
 */
 
 h1
-{font-size: 20px;
-padding: 5px;}
+{font-size: 40px;
+padding-bottom: 5px;}
 
 h2,
 h3,
