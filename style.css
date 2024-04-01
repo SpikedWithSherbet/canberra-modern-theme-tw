@@ -598,6 +598,12 @@ video {
 .pb-4 {
   padding-bottom: 1rem;
 }
+.pl-20 {
+  padding-left: 5rem;
+}
+.pr-20 {
+  padding-right: 5rem;
+}
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
