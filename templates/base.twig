@@ -20,7 +20,7 @@
 	
 </header>
 
-<section id="content" role="main" class="content-wrapper bg-primary text-white py-7 ml-10 mr-10">
+<section id="content" role="main" class="content-wrapper bg-primary text-white py-7">
 	{% if title %}
 		<!-- this title comes from the base.twig file -->
 		<h1 class="font-bold">{{title}}</h1>
@@ -38,7 +38,7 @@
 </section>
 
 {% block footer %}
-	<footer id="footer bg-secondary">
+	<footer id="footer bg-secondary" class="text-white">
 		{% include 'footer.twig' %}
 	</footer>
 	{{ function('wp_footer') }}
