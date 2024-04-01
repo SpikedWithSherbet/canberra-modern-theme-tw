@@ -9,7 +9,7 @@
 	{% block header %}
 		<div class="wrapper flex bg-primary text-white">
 			<h1 class="hdr-logo py-3 px-3 font-bold" role="banner">
-				<a class="hdr-logo-link" href="{{site.url}}" rel="home">{{site.name}}</a>
+				<a class="hdr-logo-link" href="{{site.url}}" rel="home"><img class="size-1" src="{{ site.theme.link }}/templates/logo.png" style="width: 10rem;"></a>
 			</h1>
 			<nav id="nav-main" class="nav-main px-5 py-3 font-bold" role="navigation">
 				{% include "menu.twig" with {'items': menu.get_items} %}
