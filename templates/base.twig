@@ -8,7 +8,7 @@
 <header class="header">
 	{% block header %}
 		<div class="wrapper flex bg-primary text-white">
-			<h1 class="hdr-logo py-3 px-3" role="banner">
+			<h1 class="hdr-logo py-3 px-3 font-bold" role="banner">
 				<a class="hdr-logo-link" href="{{site.url}}" rel="home">{{site.name}}</a>
 			</h1>
 			<nav id="nav-main" class="nav-main px-5 py-3 font-bold" role="navigation">
@@ -20,7 +20,7 @@
 	
 </header>
 
-<section id="content" role="main" class="content-wrapper bg-primary text-white py-7">
+<section id="content" role="main" class="content-wrapper bg-primary text-white py-7 ml-20 mr-20">
 	{% if title %}
 		<!-- this title comes from the base.twig file -->
 		<h1 class="font-bold">{{title}}</h1>
@@ -38,7 +38,7 @@
 </section>
 
 {% block footer %}
-	<footer id="footer bg-secondary" class="text-white">
+	<footer id="footer bg-secondary">
 		{% include 'footer.twig' %}
 	</footer>
 	{{ function('wp_footer') }}

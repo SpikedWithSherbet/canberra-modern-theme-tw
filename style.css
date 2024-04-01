@@ -60,7 +60,7 @@ html,
 
 body {
   margin: 0; /* 1 */
-  line-height: inherit; /* 2 */;
+  line-height: inherit; /* 2 */
 }
 
 /*
@@ -88,18 +88,9 @@ abbr:where([title]) {
 Remove the default font size and weight for headings.
 */
 
-h1
-{font-size: 40px;
-padding-bottom: 10px;}
-
-h2
-{font-size: 20px;
-padding-bottom: 10px;}
-
-h3
-{font-size: 15px;
-padding-bottom: 10px;}
-
+h1,
+h2,
+h3,
 h4,
 h5,
 h6 {
@@ -314,10 +305,6 @@ figure,
 p,
 pre {
   margin: 0;
-}
-
-p{
-  padding-bottom: 10px;
 }
 
 fieldset {
@@ -552,29 +539,14 @@ video {
     max-width: 1536px;
   }
 }
-.ml-5 {
-  margin-left: 1.25rem;
-}
-.ml-3 {
-  margin-left: 0.75rem;
-}
 .ml-20 {
   margin-left: 5rem;
 }
 .mr-20 {
   margin-right: 5rem;
 }
-.ml-10 {
-  margin-left: 2.5rem;
-}
-.mr-10 {
-  margin-right: 2.5rem;
-}
 .block {
   display: block;
-}
-.inline {
-  display: inline;
 }
 .flex {
   display: flex;
@@ -588,15 +560,15 @@ video {
 .gap-2 {
   gap: 0.5rem;
 }
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
 .bg-debug {
   --tw-bg-opacity: 1;
   background-color: rgb(75 167 145 / var(--tw-bg-opacity));
 }
 .bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-.bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
@@ -607,26 +579,6 @@ video {
 .p-8 {
   padding: 2rem;
 }
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -635,12 +587,20 @@ video {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .font-bold {
   font-weight: 700;
