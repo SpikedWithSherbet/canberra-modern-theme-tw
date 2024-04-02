@@ -610,6 +610,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(101 116 205 / var(--tw-bg-opacity));
 }
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
 .bg-\[url\(\'https\:\/\/imageoptim\.com\/squares\@2x\.png\'\)\] {
   background-image: url('https://imageoptim.com/squares@2x.png');
 }
@@ -674,4 +678,8 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
