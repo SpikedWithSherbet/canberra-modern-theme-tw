@@ -2,3 +2,5 @@ index.twig is the Home page
 page.twig applies to buildings
 
 Changing any inline tailwind css in base.twig will affect every page. 
+
+Changing Buildings-Page does not change the layout of the 'Buildings page'. Instead it changes the 'Canberra's Modern Page. 

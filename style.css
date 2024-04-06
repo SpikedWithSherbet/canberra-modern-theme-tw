@@ -542,29 +542,14 @@ video {
 .me-4 {
   margin-inline-end: 1rem;
 }
-.ms-4 {
-  margin-inline-start: 1rem;
-}
-.mb-0 {
-  margin-bottom: 0px;
-}
-.ml-8 {
-  margin-left: 2rem;
-}
-.ml-10 {
-  margin-left: 2.5rem;
-}
-.ml-12 {
-  margin-left: 3rem;
-}
-.ml-14 {
-  margin-left: 3.5rem;
-}
 .ml-16 {
   margin-left: 4rem;
 }
-.ml-20 {
-  margin-left: 5rem;
+.mr-10 {
+  margin-right: 2.5rem;
+}
+.ms-4 {
+  margin-inline-start: 1rem;
 }
 .block {
   display: block;
@@ -575,12 +560,12 @@ video {
 .inline-flex {
   display: inline-flex;
 }
-.size-10 {
-  width: 2.5rem;
-  height: 2.5rem;
+.grid {
+  display: grid;
 }
-.h-80 {
-  height: 20rem;
+.size-96 {
+  width: 24rem;
+  height: 24rem;
 }
 .h-96 {
   height: 24rem;
@@ -591,8 +576,14 @@ video {
 .resize {
   resize: both;
 }
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 .gap-2 {
   gap: 0.5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
 }
 .bg-black {
   --tw-bg-opacity: 1;
@@ -614,14 +605,15 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\'https\:\/\/imageoptim\.com\/squares\@2x\.png\'\)\] {
-  background-image: url('https://imageoptim.com/squares@2x.png');
-}
 .bg-\[url\(\'https\:\/\/www\.adorama\.com\/alc\/wp-content\/uploads\/2018\/11\/landscape-photography-tips-yosemite-valley-feature\.jpg\'\)\] {
   background-image: url('https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg');
 }
 .bg-cover {
   background-size: cover;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .p-8 {
   padding: 2rem;
@@ -642,6 +634,10 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
@@ -650,14 +646,6 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
 .py-9 {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
@@ -665,8 +653,22 @@ video {
 .pb-4 {
   padding-bottom: 1rem;
 }
+.pl-3 {
+  padding-left: 0.75rem;
+}
 .pt-0 {
   padding-top: 0px;
+}
+.pl-2 {
+  padding-left: 0.5rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 .text-4xl {
   font-size: 2.25rem;
@@ -675,11 +677,11 @@ video {
 .font-bold {
   font-weight: 700;
 }
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
