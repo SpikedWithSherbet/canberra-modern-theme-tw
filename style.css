@@ -539,6 +539,12 @@ video {
     max-width: 1536px;
   }
 }
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
 .me-4 {
   margin-inline-end: 1rem;
 }
@@ -810,6 +816,9 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.group:hover .group-hover\:block {
+  display: block;
 }
 @media (min-width: 640px) {
 
