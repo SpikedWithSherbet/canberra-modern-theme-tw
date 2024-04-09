@@ -5,6 +5,8 @@
 
 {% block content %}
 
+<h1 class="font-bold ml-16 text-4xl pl-2">{{title}}</h1>
+
 	{% for post in posts %}
 		{# it will look for tease-events.twig, and then go to tease.twig #}
 		{% include ['tease-'~post.post_type~'.twig', 'tease.twig'] %}

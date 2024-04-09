@@ -10,3 +10,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wp-block-image img {
+width: 40%;
+}
+
+.article-body h4 {
+    font-weight: 600;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
