@@ -10,6 +10,8 @@
  * @subpackage  Timber
  * @since   Timber 0.1
  */
+echo "<link rel="icon" type="image/x-icon" href="{{ site.theme.link }}/templates/favicon.ico">"
 
 $GLOBALS['timberContext'] = Timber::context();
 ob_start();
+
