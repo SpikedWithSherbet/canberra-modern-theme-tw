@@ -8,7 +8,7 @@
 <header class="header">
 	{% block header %}
 		<div class="wrapper inline-flex bg-primary text-white">
-				<a class="hdr-logo-link px-5 py-9 shrink-0" role="banner" href="{{site.url}}" rel="home"><img src="{{ site.theme.link }}/templates/logo.png" class="w-36 h-fit"></a>  <!-- Find better way to scale image later, please! -->
+				<a class="hdr-logo-link px-5 py-9 pl-10 shrink-0" role="banner" href="{{site.url}}" rel="home"><img src="{{ site.theme.link }}/templates/logo.png" class="w-36 h-fit"></a>  <!-- Find better way to scale image later, please! -->
 			<nav id="nav-main" class="nav-main px-5 py-11 font-bold" role="navigation">
 				{% include "menu.twig" with {'items': menu.get_items} %}
 			</nav>

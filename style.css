@@ -769,6 +769,21 @@ video {
 .pt-12 {
   padding-top: 3rem;
 }
+.pl-7 {
+  padding-left: 1.75rem;
+}
+.pl-12 {
+  padding-left: 3rem;
+}
+.pl-14 {
+  padding-left: 3.5rem;
+}
+.pl-16 {
+  padding-left: 4rem;
+}
+.pl-10 {
+  padding-left: 2.5rem;
+}
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
