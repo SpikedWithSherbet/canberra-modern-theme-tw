@@ -6,7 +6,7 @@
 			 <li class="{{ item.classes | join(' ') }} relative group mr-4" >
                 <a target="{{ item.target }}" href="{{ item.link }}">{{ item.title }}</a>
 				{% if item.children %}
-                    <ul class="absolute hidden group-hover:block">
+                    <ul class="absolute hidden group-hover:block bg-black">
                         {% for child in item.children %}
                             <li class="{{ child.classes | join(' ') }}  " >
                                 <a target="{{ child.target }}" href="{{ child.link }}">{{ child.title }}</a>    
