@@ -2,24 +2,25 @@
 
 {% block content %}
 	<div class="content-wrapper">
-		<article class="post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
-			<img src="{{ post.thumbnail.src}}">
-			<section class="article-content">
-				<h1 class="article-h1">{{ post.title }}</h1>
+		<article class="post-type-{{ post.post_type }} flex ml-16 pb-5" id="post-{{ post.ID }}">
+			<img class="size-4/6" src="{{ post.thumbnail.src}}">
+			<section class="article-content ">
+				<h1 class="article-h1 pl-5 mt-0">{{ post.title }}</h1>
 
 				<div class="article-body">
+					<div class="block pl-5">
 					{{post.content}}
 
 					{# this is building specific information, display it how you want #}
-					<h3>Risk Status</h3>
-					<p>{{ post.risk_status }}</p>
+					<h3>Risk Status: {{ post.risk_status }}</h3>
+					
 
-					<h3>Year</h3>
-					<p>{{ post.year }}</p>
-					<h3>Location</h3>
-					<p>{{ post.location }}</p>
-					<h3>Suburb</h3>
-					<p>{{ post.suburb }}</p>
+					<h3>Year: {{ post.year }}</h3>
+					
+					<h3>Location: {{ post.location }}</h3>
+					
+					<h3>Suburb: {{ post.suburb }}</h3>
+					
 
 					<h3>Architect</h3>
 					{# return a list in case there are multiple architects #}
@@ -31,14 +32,17 @@
 							</li>
 						{% endfor %}
 					</ul>
-
+</div>
 					{# show a map of the location #}
-					{{ post.geolocation }}
+					
 
 				</div>
 
 			</section>
+			
 		</article>
+		<div class="ml-16 mr-10">
+		{{ post.geolocation }}
 	</div>
 
 	<div
