@@ -1,10 +1,11 @@
 {# MENU COMES FROM menu.twig #}
 
 {% if menu %}
-	<ul class="inline-flex gap-2 ">
+	<ul class="block gap-0 md:inline-flex md:gap-2 ">
 		{% for item in items %}
 			 <li class="{{ item.classes | join(' ') }} relative group mr-4" >
                 <a target="{{ item.target }}" href="{{ item.link }}">{{ item.title }}</a>
+                <div class = "dropdown">
 				{% if item.children %}
                     <ul class="absolute hidden group-hover:block bg-black">
                         {% for child in item.children %}
@@ -14,6 +15,7 @@
                         {% endfor %}
                     </ul>
                 {% endif %}
+                </div>
 			</li>
 		{% endfor %}
 	</ul>

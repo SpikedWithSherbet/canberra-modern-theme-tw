@@ -1,10 +1,10 @@
 {# TEMPLATE: INDIVIDUAL BUILDING #}
 {# this is the single building that is looped through on the archive-buildings.twig file #}
 
-	<article class="tease tease-{{post.type}} flex " id="tease-{{post.id}}"> {% block content %}
+	<article class="tease tease-{{post.type}} block md:flex " id="tease-{{post.id}}"> {% block content %}
 		
 		{% if post.thumbnail %}
-		<img class="size-96 object-cover"src="{{post.thumbnail.src}}"/>
+		<img class="size-72 md:size-96 object-cover "src="{{post.thumbnail.src}}"/>
 	{% endif %}
 	<div class="block pl-3">
 	<h2 class="h2 text-2xl">
