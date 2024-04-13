@@ -11,6 +11,11 @@
 @tailwind components;
 @tailwind utilities;
 
+a:hover
+{
+
+    text-decoration: underline;
+}
 .wp-block-image img {
 width: 40%;
 }
