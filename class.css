@@ -1,6 +1,7 @@
 p, h1 {
 
     display: block;
+    line-height: 1.75em;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;

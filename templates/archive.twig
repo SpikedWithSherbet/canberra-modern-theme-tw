@@ -5,21 +5,21 @@
 {% block content %}
 
 <div class="block lg:hidden">
-<ul class="inline group-hover:block bg-white text-black ml-10 p-4 rounded-xl">
-                                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-264 font-semibold inline text-black mx-5">
+<ul class="inline group-hover:block bg-white text-black ml-3 min-[321px]:ml-7 p-4 rounded-xl ">
+                                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-264 font-semibold inline text-black mx-5 text-sm min-[321px]:text-base">
                                 <a target="_self" href="http://canberramodern.local/category/video/">Videos</a>    
                             </li>
-                                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262 font-semibold inline text-black mx-5">
+                                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262 font-semibold inline text-black mx-5 text-sm min-[321px]:text-base">
                                 <a target="_self" href="http://canberramodern.local/category/articles/">Articles</a>    
                             </li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-157 current_page_item menu-item-294 font-semibold inline text-black mx-5">
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-157 current_page_item menu-item-294 font-semibold inline text-black mx-5 text-sm min-[321px]:text-base">
                                 <a target="_self" href="http://canberramodern.local/news/links/">Links</a>    
                             </li>
                                             </ul>
 </div>
 {% if title %}
 		<!-- this title comes from the base.twig file -->
-		<h1 class="font-bold ml-16 text-4xl pl-2">{{title}}</h1>
+		<h1 class="font-bold ml-7 md:ml-16 text-4xl">{{title}}</h1>
 	{% endif %}
 
 	{% for post in posts %}
