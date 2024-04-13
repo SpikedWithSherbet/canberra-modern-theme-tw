@@ -17,8 +17,8 @@ width: 40%;
 
 .article-body h4 {
     font-weight: 600;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -30,5 +30,27 @@ width: 40%;
 
 
     }
+    
+
+    .wp-block-image img {
+        width: 60%;
+        }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .dropdown {
+
+
+        display: none;
+
+
+    }
+    
+
+    .wp-block-image img {
+        width: 100%;
+        }
 
 }

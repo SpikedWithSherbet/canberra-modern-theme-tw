@@ -5,7 +5,7 @@
 
 {% block content %}
 
-<h1 class="font-bold ml-16 text-4xl pl-2">{{title}}</h1>
+<h1 class="font-bold ml-16 text-4xl">{{title}}</h1>
 
 	{% for post in posts %}
 		{# it will look for tease-events.twig, and then go to tease.twig #}
@@ -15,7 +15,7 @@
 	{% include 'partial/pagination.twig' with { pagination: posts.pagination({show_all: false, mid_size: 3, end_size: 2}) } %}
 
 	<div
-		class="debug p-8 bg-debug">
+		class="debug p-8 bg-debug hidden">
 		{# useful for debugging, delete later #}
 		<h1>Debug info</h1>
 

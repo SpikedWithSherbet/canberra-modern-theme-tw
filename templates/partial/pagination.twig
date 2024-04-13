@@ -1,6 +1,6 @@
 {% if posts.pagination.pages is not empty %}
     <nav class="pagination-block">
-        <ul class="pagination">
+        <ul class="pagination flex gap-2 justify-center">
 
             {# First #}
             {% if posts.pagination.pages|first and posts.pagination.pages|first.current != true %}
