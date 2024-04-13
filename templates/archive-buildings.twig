@@ -7,7 +7,7 @@
 
 <h1 class="font-bold ml-7 md:ml-16 text-4xl pl-2">{{title}}</h1>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 mr-10 ml-7 md:ml-16 gap-3">
+<div class="grid grid-cols-1 lg:grid-cols-2 mr-10 ml-7 md:ml-16 gap-3 pb-10">
 
 	{# loop through the posts returned #}
 	{% for post in posts %}
@@ -20,7 +20,7 @@
 
 
 	<div
-		class="debug p-8 bg-debug ">
+		class="debug p-8 bg-debug hidden">
 		{# useful for debugging, delete later #}
 		<h1>Debug info</h1>
 

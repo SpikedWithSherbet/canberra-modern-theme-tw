@@ -8,7 +8,7 @@
 		class="content-wrapper mr-10 ml-7 md:ml-16">
 		{# DEFAULT PAGE CONTENT #}
 		<article class="post-type-{{post.post_type}}" id="post-{{post.ID}}">
-			<section class="article-content">
+			<section class="article-content ">
 				<h1 class="article-h1 text-4xl font-bold ms:2 me:2 md:ms-4 md:me-4">{{post.title}}</h1>
 				<div class="article-body ms:2 me:2 md:ms-4 md:me-4">
 					{{post.content}}
@@ -19,7 +19,7 @@
 		{# BUILDINGS #}
 		<section>
 			<h2 class = "text-3xl font-bold ms-4 me-4 py-3">Buildings</h2>
-			<ul class = "grid grid-cols-1 lg:grid-cols-2 gap-3">
+			<ul class = "grid grid-cols-1 lg:grid-cols-2 gap-3 pb-10">
 				
 				{# loop through the buildings returned #}
 				{% for building in buildings %}
