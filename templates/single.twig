@@ -3,14 +3,14 @@
 
 {% block content %}
 	<div class="content-wrapper">
-		<article class="post-type-{{ post.post_type }} wrapper flex bg-primary text-white ml-16" id="post-{{ post.ID }}">
-			<img src="{{ post.thumbnail.src|resize(1200, 300) }}">
-			<section class="article-content">
-				<h1 class="article-h1 ml-16 mr-10">{{ post.title }}</h1>
+		<article class="post-type-{{ post.post_type }} wrapper bg-primary text-white " id="post-{{ post.ID }}">
+			<img src="{{ post.thumbnail.src}}">
+			<section class="article-content mr-7 ml-7 md:ml-16">
+				<h1 class="article-h1">{{ post.title }}</h1>
 				<p class="blog-author">
 					<time datetime="{{ post.date|date('Y-m-d H:i:s') }}">{{ post.date }}</time>
 				</p>
-				<div class="article-body">
+				<div class="article-body md:w-4/5">
 					{{post.content}}
 				</div>
 			</section>
