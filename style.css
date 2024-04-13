@@ -545,6 +545,25 @@ video {
 .relative {
   position: relative;
 }
+.inset-0 {
+  inset: 0px;
+}
+.inset-x-1\/2 {
+  left: 50%;
+  right: 50%;
+}
+.left-1\/2 {
+  left: 50%;
+}
+.top-2\/4 {
+  top: 50%;
+}
+.left-2\/4 {
+  left: 50%;
+}
+.top-1\/2 {
+  top: 50%;
+}
 .m-auto {
   margin: auto;
 }
@@ -585,8 +604,14 @@ video {
 .mt-0 {
   margin-top: 0px;
 }
+.mt-auto {
+  margin-top: auto;
+}
 .block {
   display: block;
+}
+.inline-block {
+  display: inline-block;
 }
 .inline {
   display: inline;
@@ -618,37 +643,21 @@ video {
   height: -moz-fit-content;
   height: fit-content;
 }
-.h-48 {
-  height: 12rem;
-}
 .h-1\/2 {
   height: 50%;
 }
-.h-screen {
-  height: 100vh;
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
 }
-.h-4\/5 {
-  height: 80%;
+.h-dvh {
+  height: 100dvh;
 }
-.h-\[130rem\] {
-  height: 130rem;
+.h-32 {
+  height: 8rem;
 }
 .h-full {
   height: 100%;
-}
-.h-\[80vh\] {
-  height: 80vh;
-}
-.h-72 {
-  height: 18rem;
-}
-.min-h-min {
-  min-height: -moz-min-content;
-  min-height: min-content;
-}
-.min-h-max {
-  min-height: -moz-max-content;
-  min-height: max-content;
 }
 .w-20 {
   width: 5rem;
@@ -665,26 +674,32 @@ video {
 .w-full {
   width: 100%;
 }
-.w-screen {
-  width: 100vw;
+.w-32 {
+  width: 8rem;
 }
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
+.w-2\/3 {
+  width: 66.666667%;
 }
-.min-w-min {
-  min-width: -moz-min-content;
-  min-width: min-content;
+.w-3\/5 {
+  width: 60%;
 }
-.min-w-max {
-  min-width: -moz-max-content;
-  min-width: max-content;
+.w-4 {
+  width: 1rem;
+}
+.w-64 {
+  width: 16rem;
+}
+.w-72 {
+  width: 18rem;
 }
 .resize {
   resize: both;
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.items-center {
+  align-items: center;
 }
 .justify-center {
   justify-content: center;
@@ -720,48 +735,22 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-\[src\(\'\/templates\/nla_hero\.png\'\)\] {
-  background-color: src('/templates/nla hero.png');
-}
-.bg-\[src\(\'templates\/nla_hero\.png\'\)\] {
-  background-color: src('templates/nla hero.png');
-}
-.bg-\[src\(\'templates\/nla_hero\.jpg\'\)\] {
-  background-color: src('templates/nla hero.jpg');
-}
-.bg-\[src\(\'\/templates\/nla_hero\.jpg\'\)\] {
-  background-color: src('/templates/nla hero.jpg');
-}
-.bg-\[url\(\'https\:\/\/www\.adorama\.com\/alc\/wp-content\/uploads\/2018\/11\/landscape-photography-tips-yosemite-valley-feature\.jpg\'\)\] {
-  background-image: url('https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg');
-}
-.bg-\[url\(\'templates\/nla_hero\.jpg\'\)\] {
-  background-image: url('templates/nla_hero.jpg');
-}
-.bg-\[url\(\'\/templates\/nla_hero\.png\'\)\] {
-  background-image: url('/templates/nla_hero.png');
-}
-.bg-\[url\(\'\/templates\/nla_hero\.jpg\'\)\] {
-  background-image: url('/templates/nla_hero.jpg');
+.bg-\[url\(\'templates\/nlabanner\.jpg\'\)\] {
+  background-image: url('templates/nlabanner.jpg');
 }
 .bg-cover {
   background-size: cover;
 }
-.bg-contain {
-  background-size: contain;
-}
-.bg-auto {
-  background-size: auto;
-}
 .bg-center {
   background-position: center;
-}
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 .p-4 {
   padding: 1rem;
@@ -828,6 +817,12 @@ video {
 }
 .pt-9 {
   padding-top: 2.25rem;
+}
+.text-center {
+  text-align: center;
+}
+.align-middle {
+  vertical-align: middle;
 }
 .text-2xl {
   font-size: 1.5rem;
