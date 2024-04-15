@@ -3,6 +3,13 @@
 {% block content %}
 	<div class="content-wrapper">
 		<article class="post-type-{{ post.post_type }} flex ml-16 pb-5" id="post-{{ post.ID }}">
+
+			<div class="block lg:hidden">
+			<ul class="inline group-hover:block bg-white text-black ml-3 min-[321px]:ml-7 p-4 rounded-xl ">
+                                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-264 font-semibold inline text-black mx-5 text-sm min-[321px]:text-base">
+                                <a target="_self" href="http://canberramodern.local/buildings/">Buildings</a>    
+                            </li>
+</div>
 			<img class="size-4/6" src="{{ post.thumbnail.src}}">
 			<section class="article-content ">
 				<h1 class="article-h1 pl-5 mt-0">{{ post.title }}</h1>

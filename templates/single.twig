@@ -4,6 +4,12 @@
 {% block content %}
 	<div class="content-wrapper">
 		<article class="post-type-{{ post.post_type }} wrapper bg-primary text-white " id="post-{{ post.ID }}">
+
+			<ul class="inline group-hover:block bg-white text-black ml-3 min-[321px]:ml-7 p-4 rounded-xl ">
+                                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-264 font-semibold inline text-black mx-5 text-sm min-[321px]:text-base">
+                                <a target="_self" href="http://canberramodern.local/category/news/">News</a>    
+                            </li>
+</ul>
 			<img src="{{ post.thumbnail.src}}">
 			<section class="article-content mr-7 ml-7 md:ml-16">
 				<h1 class="article-h1">{{ post.title }}</h1>

@@ -5,6 +5,16 @@
 {% block content %}
 	<div class="content-wrapper">
 		<article class="post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
+
+			<ul class="inline group-hover:block bg-white text-black ml-3 min-[321px]:ml-7 p-4 rounded-xl ">
+                                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-264 font-semibold inline text-black mx-5 text-sm min-[321px]:text-base">
+                                <a target="_self" href="http://canberramodern.local/events2/galleries/">Galleries</a>    
+                            </li>
+
+							   <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-264 font-semibold inline text-black mx-5 text-sm min-[321px]:text-base">
+                                <a target="_self" href="http://canberramodern.local/events/">Events</a>    
+                            </li>
+							
 			<img src="{{ post.thumbnail.src|resize(1200, 300) }}">
 			<section class="article-content">
 				<h1 class="article-h1 ml-16 mr-10">{{ post.title }}</h1>

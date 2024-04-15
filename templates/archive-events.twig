@@ -5,7 +5,17 @@
 
 {% block content %}
 
+<div class="block lg:hidden">
+<ul class="inline group-hover:block bg-white text-black ml-3 min-[321px]:ml-7 p-4 rounded-xl ">
+                                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-264 font-semibold inline text-black mx-5 text-sm min-[321px]:text-base">
+                                <a target="_self" href="http://canberramodern.local/events2/galleries/">Galleries</a>    
+                            </li>
+</ul>
+
+</div>
+
 <h1 class="font-bold ml-16 text-4xl">{{title}}</h1>
+
 
 	{% for post in posts %}
 		{# it will look for tease-events.twig, and then go to tease.twig #}
