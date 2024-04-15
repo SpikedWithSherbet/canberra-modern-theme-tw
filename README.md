@@ -30,7 +30,7 @@ Throughout the development of this project, our team encountered several challen
 
 Our group’s first major challenge was difficulty interpreting instructions about how to install the necessary files to give us the ability to edit and design the template. These instructions only worked for MacOS, and therefore did not work for some members of the group. This resulted in a delay before we could begin working on the template until the instructions were updated and we were able to receive additional assistance. During this time, we looked at the design of the Wordpress template and how we might be able to alter it, not wanting our time to be wasted while waiting on assistance. 
 
-Once we received the necessary fixes to these necessary instructions allowing us to begin our work, we began the development of the template.
+Once we received the necessary fixes allowing us to begin our work, we began the development of the template.
 
 While our team wasn't experienced with Tailwind CSS or Wordpress, we worked together to parse the code of the template and find ways to modify it beyond what was originally provided.
 
