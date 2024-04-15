@@ -938,6 +938,10 @@ width: 40%;
     margin-left: 1.75rem;
   }
 
+  .min-\[321px\]\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
   .min-\[321px\]\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
