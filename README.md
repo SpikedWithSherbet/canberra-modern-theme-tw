@@ -49,3 +49,21 @@ Our group’s distribution of tasks was even, and we made constant adjustments a
 Through communication and team-oriented workflow, we implemented a successful design solution for our site template theme, and our group has finished the project understanding more about successful construction of websites in Wordpress and Tailwind, and collaboration in a programming and design-oriented project.
 
 # References
+
+Automattic, Inc. (2024). Wordpress Developer Documentation.
+https://wordpress.org/documentation/
+
+This site was a useful resource for our team as we wished to learn more about using Wordpress, including information about installing and utilising Wordpress, along with a FAQ about Wordpress.
+
+Tailwind Labs Inc. (2024). Installation - Tailwind CSS. 
+https://tailwindcss.com/docs 
+
+This site was a useful resource for our team as we wished to learn more about using Tailwind CSS, including information about installing the necessary files for using Tailwind CSS, along with information about how to successfully utilise and code with Tailwind CSS.
+
+W3Schools. (2024). Learn to Code. W3Schools Online Web Tutorials. https://www.w3schools.com/ 
+
+This site was a useful resource for our team whenever we needed to find specific information relating to coding, providing information about different website coding languages including CSS and PHP.
+
+Wick, R. (2008). National Library of Australia. Wikimedia Commons. Retrieved April 13, 2024, from https://commons.wikimedia.org/wiki/File:National_Library_of_Australia_%282192098809%29.jpg. 
+
+We used this Creative Commons image for our site’s hero image.
