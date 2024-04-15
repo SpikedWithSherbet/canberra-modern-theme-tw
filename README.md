@@ -1,70 +1,51 @@
-# Assessment 2: Front-End Theme
+# Assessment 2 Front-End Theme
 
-In this project, our goal was to collaboratively design and develop a theme for a website utilising Tailwind CSS and Wordpress. Working in our small group, with our group consisting of Bryn, Euan Todd, and Rey Berkelmans, we will be leveraging content from the current Canberra Modern site to create a visually appealing and functional responsive website using Local, Wordpress, and Github.
+In this project, our goal was to collaboratively design and develop a theme for a website utilising Tailwind CSS and Wordpress. Working in our small group, with our group consisting of Bryn Sinstead-Reid, Euan Todd, and Rey Berkelmans, we will be leveraging content from the current Canberra Modern site to create a visually appealing and functional responsive website using Local, Wordpress, and Github.
 
-There are multiple issues with the current Canberra Modern’s site and design that our new design will work to change and improve upon.
+# Individual Contribution
 
-The main flaws for the Canberra Modern’s current site and design include:
+Throughout the development of this project, our team each contributed their skills and perspectives to develop our Canberra Modern Wordpress theme.
 
-1. Busy Navigation.
-2. Overly-Complicated Code.
-3. Poor Logo Design.
-4. Poor Colour Choices.
-5. Inaccessible Account System.
+## Euan Todd
 
-However, the current site and design does additionally have some positives, including:
+Euan’s task during the assessment was to lead the group in coding the template. He used his knowledge and skills in web development to contribute constant additions of new code and revisions to existing code and was highly communicative around developing our site template.
 
-1. Clear Overall Design.
-2. Use of Negative Space.
-4. Informative.
-5. Functional.
+At the beginning of the project, Euan was inexperienced in Tailwind CSS and Wordpress. While this new approach to web development was difficult at first, he worked hard to study the documentation and used Tailwind CSS to effectively construct parts of the site template.
 
-Style and design is an important aspect of website development, as it directly impacts a users experience on the site, therefore it is very important to work towards creating a well thought-out style and design.
+## Rey Berkelmans
 
-If a site has poor style and design, it can negatively impact a user’s experience, which leaves behind a negative impression, along with causing unnecessary confusion and stress. This results in users avoiding accessing a specific site in the future, along with recommending other potential users to avoid the site.
+Rey’s tasks were assisting in development and the coding of the template, giving suggestions and feedback, as well as writing additional content and documentation for the project, providing critical feedback and communicating in group discussions. 
 
-# Improvements
+While Rey wasn’t very confident in his coding ability in Tailwind CSS, working through the task with the team and referring to the documentation helped him improve his skills in the framework, which helped him contribute meaningful changes to the site template.
 
-We can now consider what improvements we make for this site and its design.
+## Bryn Sinstead-Reid
 
-## Code
+Bryn’s tasks were providing assistance in coding the template, creating the design for our redesigned page, providing images and assets such as the logo and site images, and assisting in writing additional content and documentation.
 
-Instead of utilising Wix’s unnecessary complicated and confusing code, we will aim towards utilising Tailwind CSS, which will assist in keeping code tidy. This additionally allows us to work towards making the website responsive along with the code being easier to read.
+Bryn was unfamiliar with Wordpress, Tailwind, and integrating with Github, and found the task daunting at first. Throughout the project he worked through these challenges and was eventually able to work with all three comfortably, pushing changes through Github confidently.
 
-## Layout
+# Issue Resolution
 
-To improve the site’s layout, we aim to condense the design down to the basic elements, adding relevant sections where needed. Additionally, we aim to create a footer which is more condensed down in order to prevent it from being invasive amongst the page layout.
+Throughout the development of this project, our team encountered several challenges, requiring us to address these challenges and find solutions for them.
 
-## Logo
+Our group’s first major challenge was difficulty interpreting instructions about how to install the necessary files to give us the ability to edit and design the template. These instructions only worked for MacOS, and therefore did not work for some members of the group. This resulted in a delay before we could begin working on the template until the instructions were updated and we were able to receive additional assistance. During this time, we looked at the design of the Wordpress template and how we might be able to alter it, not wanting our time to be wasted while waiting on assistance. 
 
-We also aim to redesign the brand identity of Canberra Modern, which involves redesigning a new logo. This new logo combines the modernist architectural styles of Canberra Modern with typography to create an angular logo which will take advantage of negative space, along with being clear and easy to read and understand.
+Once we received the necessary fixes to these necessary instructions allowing us to begin our work, we began the development of the template.
 
-## Colour Palette
+While our team wasn't experienced with Tailwind CSS or Wordpress, we worked together to parse the code of the template and find ways to modify it beyond what was originally provided.
 
-We looked towards creating a colour palette to create a simple design aesthetic, as opposed to the inconsistent palette of the current site. The high contrast colour palette we created to increase screen compatibility, accessibility, and the design quality of the site. The white and black provides high contrast for a vast array of different screens, while the teal amplifies key sections of the site with colour.
+An example of where we had struggled was with the application of a logo in the header. We took a step back and discussed why this issue was occurring. By looking through Wordpress documentation, receiving tutor feedback, and cooperating with each other, we were able to determine a Wordpress function that would allow us to display a header logo.
 
-## Navigation
+The second biggest challenge we encountered while developing the template was making the layout and design responsive while working within the boundaries and limitations of Tailwind CSS and Wordpress. We had to find ways to make our navigation functional on smaller displays. This was initially a difficult concept to tackle as we found the navigation links were nested under hover interactions. Through discussion and research, we were able to discover a method of hiding and unhiding unique mobile-only navigation bars through the use of the ‘hidden’ Tailwind tag.
 
-In our redesigned navigation, we aim towards making the navigation clear and understandable to an average user, which will assist in preventing users from becoming overwhelmed while navigating this site. One way we can do this is by combining or removing separate pages.
+# Team Collaboration
 
-# Development
+During the development of our team worked effectively and collaborated closely throughout each step of the project. We worked almost daily on the project and informed each other of developments and changes. 
 
-After considering the design we wish to aim towards with the new site’s design, we can begin development of the new site. However, we did face issues while developing this site.
+When we were stumped or unable to progress, we found ourselves able to find assistance in the group’s knowledge, and used the resources at our disposal to help guide each other through challenges.
 
-Before we began, we created a group chat for communication and collaboration with each other over the internet, even while we weren’t working with each other in-person.
+Our group’s distribution of tasks was even, and we made constant adjustments and considerations for each member of the group.
 
-Soon after, our group faced the first major issue, resulting from unclear instructions about how to install the necessary files to give us the ability to edit and design this site. These instructions only worked for specific types of computers, and therefore did not work for some members of the group. This resulted in a delay before we could begin working on the site until the instructions were updated and we got additional assistance.
+Through communication and team-oriented workflow, we implemented a successful design solution for our site template theme, and our group has finished the project understanding more about successful construction of websites in Wordpress and Tailwind, and collaboration in a programming and design-oriented project.
 
-After this, we began development of the site, but discovered some issues, including:
-
-1. Inability to edit most of the content that was located in Wordpress.
-2. None of our members had much experience using Tailwind CSS and Wordpress.
-3. Difficulty changing specific sections of the site.
-
-Additionally, during the development of this site, there were times where we had to wait until we got additional assistance from a tutorial to fix certain issues or questions we had about the code. This slowed down the overall development of the site.
-
-One issue we encountered while developing this site was with making this site responsive, especially due to the limitations of Tailwind CSS and Wordpress. However, utilising Media Queries, and resizing aspects, we were able to successfully get the site responsive.
-
-# Final Thoughts
-
-Overall, our group did successfully complete our goal to collaboratively design and develop a theme for a website using Tailwind CSS and Wordpress. We were able to leverage content from the current Canberra Modern site to create a visually appealing and functional responsive website utilising Local, Wordpress, and Github.
+# References
