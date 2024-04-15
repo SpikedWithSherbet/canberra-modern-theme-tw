@@ -1,7 +1,7 @@
 {# MENU COMES FROM menu.twig #}
 
 {% if menu %}
-	<ul class="block gap-0 md:inline-flex md:gap-2 ">
+	<ul class="block gap-0 text-lg leading-8 md:text-base md:leading-7 md:inline-flex md:gap-2 ">
 		{% for item in items %}
 			 <li class="{{ item.classes | join(' ') }} relative group mr-4" >
                 <a target="{{ item.target }}" href="{{ item.link }}">{{ item.title }}</a>

@@ -861,6 +861,10 @@ video {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -869,6 +873,9 @@ video {
 }
 .font-semibold {
   font-weight: 600;
+}
+.leading-8 {
+  line-height: 2rem;
 }
 .text-black {
   --tw-text-opacity: 1;
@@ -1013,6 +1020,15 @@ width: 40%;
 
   .md\:pl-1 {
     padding-left: 0.25rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:leading-7 {
+    line-height: 1.75rem;
   }
 }
 
