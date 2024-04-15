@@ -989,6 +989,10 @@ width: 40%;
   .md\:pt-11 {
     padding-top: 2.75rem;
   }
+
+  .md\:pl-1 {
+    padding-left: 0.25rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1007,5 +1011,9 @@ width: 40%;
 
   .lg\:pt-0 {
     padding-top: 0px;
+  }
+
+  .lg\:pl-3 {
+    padding-left: 0.75rem;
   }
 }
