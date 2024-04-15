@@ -1,6 +1,6 @@
 # Assessment 2 Front-End Theme
 
-In this project, our goal was to collaboratively design and develop a theme for a website utilising Tailwind CSS and Wordpress. Working in our small group, with our group consisting of Bryn Sinstead-Reid, Euan Todd, and Rey Berkelmans, we will be leveraging content from the current Canberra Modern site to create a visually appealing and functional responsive website using Local, Wordpress, and Github.
+In this project, our goal was to collaboratively design and develop a theme for a website utilising Tailwind CSS and Wordpress. Working in our small group, consisting of Bryn Sinstead-Reid, Euan Todd, and Rey Berkelmans, we will be leveraging content from the current Canberra Modern site to create a visually appealing, functional, and responsive website using Local, Wordpress, and Github.
 
 # Individual Contribution
 
@@ -8,7 +8,7 @@ Throughout the development of this project, our team each contributed their skil
 
 ## Euan Todd
 
-Euan’s task during the assessment was to lead the group in coding the template. He used his knowledge and skills in web development to contribute constant additions of new code and revisions to existing code and was highly communicative around developing our site template.
+Euan’s task during this project was to lead the group in coding the template. He used his knowledge and skills in web development to contribute constant additions of new code and revisions to existing code and was highly communicative around developing our site template.
 
 At the beginning of the project, Euan was inexperienced in Tailwind CSS and Wordpress. While this new approach to web development was difficult at first, he worked hard to study the documentation and used Tailwind CSS to effectively construct parts of the site template.
 
@@ -46,7 +46,7 @@ When we were stumped or unable to progress, we found ourselves able to find assi
 
 Our group’s distribution of tasks was even, and we made constant adjustments and considerations for each member of the group.
 
-Through communication and team-oriented workflow, we implemented a successful design solution for our site template theme, and our group has finished the project understanding more about successful construction of websites in Wordpress and Tailwind, and collaboration in a programming and design-oriented project.
+Through communication and team-oriented workflow, we implemented a successful design solution for our site template theme, and our group has finished the project understanding more about successful construction of websites in Wordpress and Tailwind, along with collaboration in a programming and design-oriented project.
 
 # References
 
