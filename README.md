@@ -40,7 +40,7 @@ The second biggest challenge we encountered while developing the template was ma
 
 # Team Collaboration
 
-During the development of our team worked effectively and collaborated closely throughout each step of the project. We worked almost daily on the project and informed each other of developments and changes. 
+Our team collaborated closely throughout each step of the project. We worked almost daily on the project and informed each other of developments and changes. 
 
 When we were stumped or unable to progress, we found ourselves able to find assistance in the group’s knowledge, and used the resources at our disposal to help guide each other through challenges.
 
